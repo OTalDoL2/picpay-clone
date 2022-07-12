@@ -1,0 +1,91 @@
+/*Main*/
+.main{
+    padding-top: 15px;
+    height: 200px;
+    background-color: #228662;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cashSpace{
+    height: 35%;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 3%;
+    display: flex;
+}
+.saldo-cash{
+    align-items: center;
+    font-size: 20px;
+    margin-right: 60px;
+    float: left;
+    line-height: 28px;
+}
+.icon{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.extract{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+/*OPTIONS*/
+.options{
+    height: 50%;
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 230px;
+}
+.buttonAction{
+    width: 90px;
+    height: 100%;
+    background-color: #2a5d4a;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+.item{
+    height: 20px;
+    width: 12px;
+    margin-left: 10px;
+    padding: 36px;
+    margin-right: 10px;
+    background-color: #2a5d4a;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+.inner-carousel{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.carousel{
+    overflow: hidden;
+    width: 90%;
+}
+
+.icon-item{
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: -25px;
+    margin-right: 25px;
+
+}
+span{
+    display: inline-block;
+    width: 30px;
+    margin-left: -30px;
+    justify-content: center;
+    text-align: justify;
+}
